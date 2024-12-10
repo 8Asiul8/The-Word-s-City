@@ -1,0 +1,88 @@
+body {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+svg {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  grid-column: span 2;
+}
+
+h1 {
+  font-size: 40pt;
+}
+
+#mapa_texto {
+  grid-column: span 2;
+  align-items: center;
+  max-height: 100vh;
+}
+
+#mapa_texto p {
+  font-size: 16pt;
+}
+
+#tudo {
+  grid-column: span 4;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+  align-items: center;
+  max-height: 100vh;
+  overflow: hidden;
+}
+
+#RepConeDestacadas {
+  position: relative;
+}
+
+#RepsConexPlaces {
+  position: relative;
+}
+
+#Tit_but {
+  grid-column: span 2;
+  align-items: center;
+}
+
+#Tit_but button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+
+  background-color: transparent;
+  border: none;
+  height: 40pt;
+  width: auto;
+}
+
+#Tit_but button svg:hover {
+  fill: red;
+}
+
+#Tit_but h1 {
+  display: inline-block;
+}
+
+#back-button {
+  transform: scaleX(-1);
+}
+
+#texto {
+  overflow: scroll;
+  max-height: 80vh;
+  scrollbar-width: none;
+}
+
+#texto::-webkit-scrollbar {
+  display: none;
+}
