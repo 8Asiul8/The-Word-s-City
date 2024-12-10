@@ -1,47 +1,52 @@
 # The-Word-s-City
 
-> Este script recebe alguns documentos em ficheiros texto e faz uma análise breve de ficheiros texto e cria alguns objetos com base nas palavras e conecta-as de acordo com a ordem pela qual aparecem no texto de forma a criar um objeto semelhante a um mapa, onde os caminhos são formados pelo texto do documento original. As posições das palavras são ajustadas durante a animação através de um sistema de forças tendo em conta as ligações entre elas.
+> This script takes some documents in text files, performs a brief analysis of their content, and creates objects based on the words. It connects these words according to the order in which they appear in the text, forming an object similar to a map, where the paths are shaped by the document's original text. The positions of the words are adjusted during the animation through a force-based system considering the connections between them.
 
-## 📚 Sobre o Projeto
-Project developed as part of the Computational Laboratory for Design course within the Design and Multimedia program at the University of Coimbra.
-Este projeto foi desenvolvido utilizando **HTML**, **CSS** e **JavaScript**, sem nenhuma dependência externa, para converter ficheiros de texto num objeto visualmente parecido com um mapa de uma cidade formado por texto.
+## 📚 About the Project
 
-## 🚀 Funcionalidades
+This project was developed as part of the Computational Laboratory for Design course within the Design and Multimedia program at the University of Coimbra.  
+It was built using **HTML**, **CSS**, and **JavaScript**, without any external dependencies, to convert text files into an object visually resembling a city map formed by text.
 
-- Exibe o mapa gerado pelo texto, acompanhado do texto em si.
-- Permite alternar entre os diferente documentos de texto disponíveis e ver os seus resultados.
-- Permite dar play e pausar a animação entre as palavras.
-- Permite reposicionar as palavras num novo conjunto de posições.
-- Dar hover com o mouse em cima do texto destaca essa mesma parte no "mapa"
+## 🚀 Features
 
-## 🛠️ Tecnologias Utilizadas
+- Displays the map generated from the text, alongside the original text.
+- Allows switching between different available text documents and viewing their respective results.
+- Enables play and pause of the animation between words.
+- Allows repositioning words into a new set of positions.
+- Hovering over the text with the mouse highlights the corresponding part on the "map."
 
-Este projeto foi construído com as seguintes tecnologias:
+## 🛠️ Technologies Used
 
-- **HTML**: Estrutura da aplicação.
-- **CSS**: Estilização e layout.
-- **JavaScript**: Interatividade e lógica.
+This project was built with the following technologies:
 
-## 📂 Estrutura do Projeto
+- **HTML**: Application structure.
+- **CSS**: Styling and layout.
+- **JavaScript**: Interactivity and logic.
+
+## 📂 Project Structure
 
 ```plaintext
 .
-├── index.html       # Arquivo principal HTML
-├── style.css        # Arquivo de estilos CSS
-├── script.js        # Arquivo principal de JavaScript
-├── textos/          # Pasta para arquivos de texto analisados no projeto
-├── icons/           # Pasta para os icons da página
+├── index.html       # Main HTML file
+├── style.css        # CSS styles file
+├── script.js        # Main JavaScript file
+├── textos/          # Folder for text files analyzed in the project
+├── icons/           # Folder for page icons
 ```
 
 ## 📦 Como Clonar e Executar
 
 Siga os passos abaixo para clonar e executar este projeto localmente:
 
-1. **Clone o repositório**  
-   Abra o terminal e execute o comando abaixo para clonar o repositório no seu computador:
+## 📦 How to Clone and Run
+
+Follow the steps below to clone and run this project locally:
+
+1. **Clone the repository**  
+   Open your terminal and run the following command to clone the repository to your computer:
    ```bash
-   https://github.com/8Asiul8/The-Word-s-City.git
-2. **Acesse o diretório do projeto**  
-   Navegue até a pasta do projeto clonado
-3. **Abra no navegador**
-   Localize o arquivo index.html e abra-o diretamente no seu navegador ou utilize um servidor local (por exemplo, com a extensão Live Server do VSCode).
+   git clone https://github.com/8Asiul8/The-Word-s-City.git
+2. **Navigate to the project directory**
+   Go to the cloned project folder
+3. **Open in the browser**
+   Locate the index.html file and open it directly in your browser or use a local server (e.g., the Live Server extension in VSCode).
