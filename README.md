@@ -40,7 +40,7 @@ Siga os passos abaixo para clonar e executar este projeto localmente:
 1. **Clone o repositório**  
    Abra o terminal e execute o comando abaixo para clonar o repositório no seu computador:
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   https://github.com/8Asiul8/The-Word-s-City.git
 2. **Acesse o diretório do projeto**  
    Navegue até a pasta do projeto clonado
 3. **Abra no navegador**
