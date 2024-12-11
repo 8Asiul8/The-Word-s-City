@@ -34,10 +34,6 @@ This project was built with the following technologies:
 ├── icons/           # Folder for page icons
 ```
 
-## 📦 Como Clonar e Executar
-
-Siga os passos abaixo para clonar e executar este projeto localmente:
-
 ## 📦 How to Clone and Run
 
 Follow the steps below to clone and run this project locally:
